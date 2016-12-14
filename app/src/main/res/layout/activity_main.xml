@@ -11,7 +11,7 @@
     android:layout_marginEnd="30dp">
 
     <TextView
-        android:text="Meus aplicativos Nanodegree"
+        android:text="@string/meus_aplicativos_nanodegree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvw_titulo"
@@ -23,7 +23,7 @@
         android:textColor="@android:color/background_dark" />
 
     <Button
-        android:text="Filmes populares"
+        android:text="@string/filmes_populares"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -36,7 +36,7 @@
         android:onClick="openFilmes"/>
 
     <Button
-        android:text="Stock Hawk"
+        android:text="@string/stock_hawk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -62,20 +62,21 @@
         android:onClick="openFacaMaior" />
 
     <Button
-        android:text="Faça seu aplicativo com Material"
+        android:text="@string/fa_a_seu_aplicativo_com_material"
+        android:onClick="openFacaMaterial"
+        android:id="@+id/btn_faca_material"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/btn_faca_material"
         android:backgroundTint="#F08C35"
         android:textStyle="bold"
         android:textColor="@android:color/background_dark"
-        android:onClick="openFacaMaterial" />
+         />
 
     <Button
-        android:text="Seja onipresente"
+        android:text="@string/seja_onipresente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -88,7 +89,7 @@
         android:onClick="openSejaOnipresente" />
 
     <Button
-        android:text="Capstone "
+        android:text="@string/capstone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
